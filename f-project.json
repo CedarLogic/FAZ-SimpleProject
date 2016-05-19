@@ -2,7 +2,9 @@
   "name": "faz-arafato-test2",
   "versionControl": {
     "type": "git",
-    "location": ""
+    "location": "https://github.com/arafato/FAZ-SimpleProject.git",
+    "branch": "master"
+
   },
   "cors": {
     "allowedOrigins": []
