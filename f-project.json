@@ -1,0 +1,11 @@
+{
+  "name": "faz-arafato-test2",
+  "versionControl": {
+    "type": "git",
+    "location": ""
+  },
+  "cors": {
+    "allowedOrigins": []
+  },
+  "containerSize": 128
+}

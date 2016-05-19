@@ -1,0 +1,22 @@
+{
+    "id": "9f4ea53c5136457d883d685e57164f08",
+    "queues": {
+      "maxPollingInterval": 2000,
+      "batchSize": 16,
+      "maxDequeueCount": 5,
+      "newBatchThreshold": 8
+    },
+    "serviceBus": {
+      "maxConcurrentCalls": 16
+    },
+    "tracing": {
+      "consoleLevel": "Verbose"
+    },
+    "singleton": {
+      "lockPeriod": "00:00:15",
+      "listenerLockPeriod": "00:01:00",
+      "listenerLockRecoveryPollingInterval": "00:01:00",
+      "lockAcquisitionTimeout": "00:01:00",
+      "lockAcquisitionPollingInterval": "00:00:03"
+    }
+}
